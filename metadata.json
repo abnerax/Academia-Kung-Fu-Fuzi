@@ -1,0 +1,8 @@
+{
+  "name": "Academia Fuzi - Kung Fu Wushu & Boxe Chinês",
+  "description": "Biosite oficial da Academia Fuzi de Kung Fu Wushu e Boxe Chinês em Salto, SP. Conheça as modalidades, horários de aulas e fale no WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-jakarta: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --fuzi-red: #C71925;
+    --fuzi-black: #111111;
+    --fuzi-gold: #C99A38;
+    --fuzi-white: #F5F3EF;
+    --fuzi-graphite: #292929;
+  }
+
+  body {
+    font-family: var(--font-jakarta);
+    background-color: #111111;
+    color: #F5F3EF;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-cinzel);
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #292929;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C71925;
+}
